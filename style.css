@@ -6,11 +6,13 @@ html {
     font-family: "Helvetica Neue", serif;
     line-height: 1.5em;
 }
-main{
-   padding-top: 100px;
-}
-.description{
-    background-color:#E0E0E0;
+
+
+nav{
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    right:10px;
 }
 ul {
     color:white;
@@ -20,6 +22,10 @@ ul {
 }
 .logo{
     border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 li{
     color:white;
@@ -28,7 +34,7 @@ li{
 
 }
 a{
-    text-decoration:none;
+    color:white;
 }
 header {
     position: fixed;
@@ -39,23 +45,31 @@ header {
 
 .monkeys{
     color: white;
-    margin: auto;
+    text-align: center;
+    line-height: 50px;
 }
-
+.description{
+    padding: 150px 50px 20px 50px;
+    background-color:#E0E0E0;
+}
 .redhat{
     float:left;
+    margin:0 20px 10px 0;
 }
-
 .description-p2{
     clear:both;
 }
-
 .blackhat{
     float:right;
+    margin:0 50px 10px 20px;
+}
+.relationship{
+    padding: 20px 50px;
 }
 footer{
-    margin-top: 100px;
     width:100%;
     height:50px;
     background-color: gray;
+    text-align: center;
+    line-height: 50px;
 }
