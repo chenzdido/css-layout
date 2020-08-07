@@ -12,3 +12,20 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    position: fixed;
+}
+
+.redhat{
+    float:left;
+}
+
+.description-p2{
+    clear:both;
+}
+
+.blackhat{
+    float:right;
+}
+
