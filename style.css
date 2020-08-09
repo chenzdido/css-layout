@@ -10,8 +10,7 @@ html {
 
 nav{
     position: absolute;
-    top: 40px;
-    bottom: 0;
+    top: 37px;
     right:10px;
 }
 ul {
@@ -28,7 +27,6 @@ ul {
     margin: auto;
 }
 li{
-    color:white;
     float:right;
     padding-left: 10px;
 
